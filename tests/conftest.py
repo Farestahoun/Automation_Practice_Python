@@ -14,14 +14,14 @@ def oneTimeSetUp(request, browser):
     driver = None
     print("Running one time setUp")
     if browser == "Chrome":
-        driver = webdriver.Chrome("C:\\Users\\sedky\\PycharmProjects\\Automation_Practice\\Basics\\libs\\chromedriver.exe")
+        driver = webdriver.Chrome("chromedriver.exe")
         driver.get("https://www.expedia.com/")
         driver.maximize_window()
 
     elif browser == "FF":
-        driver = webdriver.Firefox("C:\\Users\\sedky\\PycharmProjects\\Automation_Practice\\Basics\\libs\\chromedriver.exe")
+        driver = webdriver.Firefox();
     elif browser == "Safari":
-        driver = webdriver.Safari("C:\\Users\\sedky\\PycharmProjects\\Automation_Practice\\Basics\\libs\\chromedriver.exe")
+        driver = webdriver.Safari();
     else:
         print("Undefined WebDriver")
 
