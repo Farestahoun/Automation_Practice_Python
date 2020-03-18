@@ -1,0 +1,42 @@
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:59209/session/01019b4f014573f9606d570e525f2154/element {"using": "xpath", "value": "//span[contains(text(),'Flights')]"}
+DEBUG:urllib3.connectionpool:http://localhost:59209 "POST /session/01019b4f014573f9606d570e525f2154/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:59209/session/01019b4f014573f9606d570e525f2154/element/780b0b67-51f9-4d86-b35a-61f81e45677a/click {"id": "780b0b67-51f9-4d86-b35a-61f81e45677a"}
+DEBUG:urllib3.connectionpool:http://localhost:59209 "POST /session/01019b4f014573f9606d570e525f2154/element/780b0b67-51f9-4d86-b35a-61f81e45677a/click HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:59209/session/01019b4f014573f9606d570e525f2154/element {"using": "xpath", "value": "//label[@for='flight-departing-hp-flight']"}
+DEBUG:urllib3.connectionpool:http://localhost:59209 "POST /session/01019b4f014573f9606d570e525f2154/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:59209/session/01019b4f014573f9606d570e525f2154/element/fa59d484-b9e4-4fea-b46d-6a116567534c/click {"id": "fa59d484-b9e4-4fea-b46d-6a116567534c"}
+DEBUG:urllib3.connectionpool:http://localhost:59209 "POST /session/01019b4f014573f9606d570e525f2154/element/fa59d484-b9e4-4fea-b46d-6a116567534c/click HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:59209/session/01019b4f014573f9606d570e525f2154/element {"using": "xpath", "value": "//caption[contains(text(),'Oct 2019')]//..//*[@data-day='30']"}
+DEBUG:urllib3.connectionpool:http://localhost:59209 "POST /session/01019b4f014573f9606d570e525f2154/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:59209/session/01019b4f014573f9606d570e525f2154/element/cfd585d0-1f18-45b2-8c5b-453781f17e3b/text {"id": "cfd585d0-1f18-45b2-8c5b-453781f17e3b"}
+DEBUG:urllib3.connectionpool:http://localhost:59209 "GET /session/01019b4f014573f9606d570e525f2154/element/cfd585d0-1f18-45b2-8c5b-453781f17e3b/text HTTP/1.1" 200 23
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:59209/session/01019b4f014573f9606d570e525f2154/element/cfd585d0-1f18-45b2-8c5b-453781f17e3b/click {"id": "cfd585d0-1f18-45b2-8c5b-453781f17e3b"}
+DEBUG:urllib3.connectionpool:http://localhost:59209 "POST /session/01019b4f014573f9606d570e525f2154/element/cfd585d0-1f18-45b2-8c5b-453781f17e3b/click HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:59209/session/01019b4f014573f9606d570e525f2154/screenshot {}
+DEBUG:urllib3.connectionpool:http://localhost:59209 "GET /session/01019b4f014573f9606d570e525f2154/screenshot HTTP/1.1" 200 2870480
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:59209/session/01019b4f014573f9606d570e525f2154/execute/sync {"script": "return document.getElementById('tab-activity-tab-hp')", "args": []}
+DEBUG:urllib3.connectionpool:http://localhost:59209 "POST /session/01019b4f014573f9606d570e525f2154/execute/sync HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:59209/session/01019b4f014573f9606d570e525f2154/element/04fca93f-5a9c-4536-9d89-a1ea8e7e780d/click {"id": "04fca93f-5a9c-4536-9d89-a1ea8e7e780d"}
+DEBUG:urllib3.connectionpool:http://localhost:59209 "POST /session/01019b4f014573f9606d570e525f2154/element/04fca93f-5a9c-4536-9d89-a1ea8e7e780d/click HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://localhost:59209/session/01019b4f014573f9606d570e525f2154/screenshot {}
+DEBUG:urllib3.connectionpool:http://localhost:59209 "GET /session/01019b4f014573f9606d570e525f2154/screenshot HTTP/1.1" 200 2962712
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:59209/session/01019b4f014573f9606d570e525f2154/element {"using": "xpath", "value": "//a[contains(@onclick,'showMoreCards(9)')]"}
+DEBUG:urllib3.connectionpool:http://localhost:59209 "POST /session/01019b4f014573f9606d570e525f2154/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:59209/session/01019b4f014573f9606d570e525f2154/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pointerMove", "duration": 250, "x": 0, "y": 0, "origin": {"element-6066-11e4-a52e-4f735466cecf": "4c55036a-27b8-41a8-8be0-57ebe376d854"}}]}, {"type": "key", "id": "key", "actions": [{"type": "pause", "duration": 0}]}]}
+DEBUG:urllib3.connectionpool:http://localhost:59209 "POST /session/01019b4f014573f9606d570e525f2154/actions HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:59209/session/01019b4f014573f9606d570e525f2154/timeouts {"implicit": 3000}
+DEBUG:urllib3.connectionpool:http://localhost:59209 "POST /session/01019b4f014573f9606d570e525f2154/timeouts HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
